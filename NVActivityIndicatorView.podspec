@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
   s.author           = { "Vinh Nguyen" => "ninjaprox@gmail.com" }
   s.social_media_url = "http://twitter.com/ninjaprox"
 
-  s.ios.deployment_target  = "8.0"
+  s.ios.deployment_target  = "10.0"
   s.tvos.deployment_target = "9.0"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
   s.source       = { :git => "https://github.com/ninjaprox/NVActivityIndicatorView.git", :tag => s.version }
 
